@@ -10,7 +10,7 @@ const options = {
     maxResults: '50'
   },
   headers: {
-    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+    'X-RapidAPI-Key': 'f204ccbe04msh2a22a2f8d8c7d85p13411cjsnf6a56fcaa5a0',
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
   }
 };
@@ -20,4 +20,5 @@ export const fetchFromAPI = async (url) => {
 
     return data;
 }
+
 
